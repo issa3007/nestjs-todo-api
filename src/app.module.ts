@@ -1,9 +1,4 @@
 import { Module } from '@nestjs/common';
-<<<<<<< Updated upstream
-
-@Module({
-  imports: [],
-=======
 import { TasksModule } from './tasks/tasks.module';
 import { UsersModule } from './users/users.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
@@ -33,7 +28,5 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     TasksModule,
     UsersModule,
   ],
->>>>>>> Stashed changes
 })
 export class AppModule {}
-  
